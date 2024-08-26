@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Neto - Portfólio</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="img/avatar_neto.png" type="image/x-icon" sizes="32x3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body class="show">
+
+    <header>
+        <nav>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#sobre-mim" onclick="toggleMenu()">Sobre mim</a></li>
+                <li><a href="#tecnologias" onclick="toggleMenu()">Tecnologias</a></li>
+                <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ********** HOME ********** -->
+    <section class="home" id="home">
+            <img src="./img/logo.png" alt="">
+
+            <div class="txtHome">
+                <h1>OI, EU SOU O <span>YURI</span></h1>
+                <h3>Front end developer Jr.</h3>
+            </div>      
+
+            <a href="#sobre-mim" class="btn">Saiba mais</a>
+    </section>
+
+    <!-- ********** SOBRE MIM ********** -->
+    <section class="sobre-mim js-scroll" id="sobre-mim">
+        <div class="heading">
+            <h2>Sobre mim</h2>
+        </div>
+
+        <div class="content">
+            <div class="contentBx">
+                <p>Meu nome é Yuri. Sou graduado em ADS, para os íntimos, ou tecnologia em análise e desenvolvimento de sistemas :) </p>
+                <p>Porém um eterno estudante em constante evolução e com experiência em rotinas de Tecnologia da Informação, incluindo suporte técnico, infraestrutura e desenvolvimento front-end.</p>
+                <p>Acredito na importância de garantir que as soluções implementadas não só atendam às necessidades, mas também contribuam para o crescimento e a sustentabilidade da aplicação/organização.</p>
+                <p>Possuo facilidade na utilização de ferramentas como Photoshop e Canva. Ultimamente tenho voltado meus estudos para desenvolver cada vez mais meu JavaScript. Com foco na criação de aplicações web e todas as possibilidades relacionadas ao universo Front-End.</p>
+            </div>
+
+            <img src="./img/me.png" alt="">            
+        </div>
+    </section>
+
+    <!-- ********** SKILLS ********** -->
+    <section class="tecnologias js-scroll" id="tecnologias">
+        <div class="heading">
+            <h2>Habilidades</h2>
+        </div>
+
+        <div class="content">
+            <div class="card">
+                <img src="./img/icons/icons8-html-5.svg" alt="">
+                <p>HTML5</p>
+            </div>
+
+            <div class="card">
+                <img src="./img/icons/icons8-css3 (4).svg" alt="">
+                <p>CSS3</p>
+            </div>
+
+            <div class="card">
+                <img src="./img/icons/icons8-logotipo-javascript (1).svg" alt="">
+                <p>JAVASCRIPT</p>
+            </div>
+
+           
+        </div>
+
+        <hr>
+
+    </section>
+
+    <!-- ********** PROJETOS ********** -->
+    <section class="projetos js-scroll" id="projetos">
+        <div class="heading">
+            <h2>Projetos</h2>
+        </div>
+
+        <div class="content">
+            
+            <div class="casos">
+                <a href="https://mudearquitetura.netlify.app/" target="_blank">
+                    <img src="./img/projetos/mude-arq.png" alt="">
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Site para Portfólio de Arquitetura</h3>
+                        <span>HTML / CSS / JAVASCRIPT</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="casos">
+                <a href="" target="_blank">
+                    <img src="./img/projetos/const.png" alt="">
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Site para </h3>
+                        <span>HTML / CSS / JAVASCRIPT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="casos">
+                <a href="" target="_blank">
+                    <img src="./img/projetos/const.png" alt="">
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Site para </h3>
+                        <span>HTML / CSS / JAVASCRIPT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ********** CONTATO ********** -->
+
+    <section class="contato js-scroll" id="contato">
+
+        <hr>
+
+        <div class="heading">
+            <h2>Contatos</h2>
+        </div>
+        <div class="redes-sociais">
+            <ul data-anime="buttom" class="icons">
+                <li ><a href="https://www.instagram.com/yurisantos00_" class="fab fa-instagram fa-2x" target="_blank"></a></li>
+                <li><a  href="https://www.linkedin.com/in/yuri-santos00/" class="fab fa-linkedin fa-2x" target="_blank"></a></li>
+                <li><a  href="https://github.com/YuriSantos00" target="_blank" class="fab fa-github fa-2x"></a></li>
+                <li><a  href="mailto:lousantos.ti@gmail.com" class="far fa-envelope fa-2x"></a></li>
+            </ul>
+            <p>:)<br> Por favor, entre em contato!</p>
+        </div>
+        <hr>
+    </section>
+
+    <footer>
+        <p>Copyriht © 2024 | Yuri Santos </p>
+    </footer>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
