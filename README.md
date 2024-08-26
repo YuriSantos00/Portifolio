@@ -1,4 +1,4 @@
-## <p align="center">Portfólio - Antonio Neto</p>
+## <p align="center">Portfólio - Yuri Santos</p>
 
 <p align="center">
 Portfolio de Projetos
@@ -14,11 +14,6 @@ Esse projeto foi desenvolvido com:
 - CSS
 - JavaScript
 
-## ✨ Visualizer
-
-![alt text](https://raw.githubusercontent.com/antonioscn/portifolio/main/portifolio.png)
- 
  
 ##  Deploy
-Veja o deploy do projeto [Portfólio - Antonio Neto](https://antonioscn.vercel.app/).
-
+Veja o deploy do projeto 
