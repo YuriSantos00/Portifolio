@@ -257,21 +257,22 @@ hr{
 }
 
 .projetos .content .casos{
-    width: 30%;
+    width:  500px;
     padding: 15px 5px 15px 5px;
     text-align: center;
     color: #1a2333;
 }
 
 .projetos .content .casos img{
-    max-width: 100%;
+    width: 400px;
+    height: 300px;
     border-radius: 10px; /*100%*/
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .casos img:hover{
 transition: ease 0.5s;
-   transform: scale(1.01);
+   transform: scale(1.1);
 }
 
 /*********************** CONTATO *****************/
