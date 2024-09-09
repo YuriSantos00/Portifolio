@@ -62,7 +62,8 @@ header ul li a{
 }
 
 header ul li a:hover{
-    color: rgb(3, 3, 3);
+    transform: scale(1.2);
+    transition: ease 0.4s;
 }
 
 /*********************** GERAL *****************/
@@ -102,6 +103,7 @@ body{
 
 .home span{
     font-weight: 600;
+    color: #fff;;
 }
 
 .home h3{
@@ -123,8 +125,8 @@ body{
     letter-spacing: 2px;
     transition-duration: 1s;
     
-    background-color: #df3c0ad0;
-    color: #f5f8f7;
+    background-color: #fdfdfdd0;
+    color: #000000d0;
     font-family: 'TT Norms Pro';
     font-weight: 400;
     font-size: 18px;
@@ -150,7 +152,7 @@ body{
 
 .heading h2{
     text-transform: uppercase;
-    color: #243148;
+    color: #ffffff;
     font-weight: 600;
     font-size: 45px;
     text-align: center;
@@ -185,6 +187,10 @@ body{
     margin-bottom: 15px;
 }
 
+.contentBx span{
+    color: #fff;
+}
+
 .sobre-mim img{
     width: 80%;
     margin-bottom: 100px;
@@ -208,7 +214,7 @@ body{
 }
 
 .card img{
-    width: 130px;
+    width: 150px;
 }
 
 .card{
@@ -226,10 +232,12 @@ body{
 }
 
 .card:hover{
-    background: rgba(33, 102, 80, 0.3);
+    background: #fafafad0;
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
     transition: ease 0.4s;
+    transform: scale(1.1);
+
 }
 
 hr{
@@ -312,6 +320,7 @@ transition: ease 0.5s;
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition-duration: 0.2s;
+    color: #ffffffd0;
 }
 
 .contato p{
